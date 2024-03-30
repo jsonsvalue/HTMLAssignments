@@ -1,0 +1,47 @@
+.hidden{
+    display:none;
+}
+
+#friends-display-link{
+
+    text-align:center;
+    display:block;
+    background-color:aliceblue;
+    
+    width:95%;
+
+    padding:5px 0px;
+    margin: 0px var(--horizontal-space);
+
+    border-radius:7.5px;
+}
+
+#friends-display-link i{
+    
+    color: rgba(0,0,0,0.3);
+
+}
+
+.friends-list{
+
+    padding: 0px var(--horizontal-space);
+}
+
+.friends-list__channel{
+    
+    margin-top:15px;
+    padding-top:10px;
+
+    border-top:1px solid rgba(129, 129, 129, 0.3);
+
+}
+
+.friends-list__header{
+
+    display:flex;
+    justify-content:space-between;
+
+    font-size:16px;
+    color:rgba(0,0,0,0.6);
+
+}

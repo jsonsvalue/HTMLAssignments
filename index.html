@@ -26,7 +26,7 @@
         </div>
 
         <div class = "status-bar__column">
-            <span>10:10</span>
+            <span class = "status-bar__clock">00:00</span>
         </div>
 
         <div class = "status-bar__column">
@@ -47,11 +47,10 @@
             
         </header>
 
-        <form id = "login-form">
-            <input type = "text" placeholder = "Type in E-mail or Phone number"/>
-            <input type = "password" placeholder = "Type in Password">
+        <form id = "login-form" action = "friendslist.html" method = "GET"  >
+            <input name = "username" type = "text" placeholder = "Type in E-mail or Phone number" required/>
+            <input name = "password" type = "password" placeholder = "Type in Password" required>
             <input type = "submit" value="Log in"/>
-            <input type = "submit" value = "Sign up"/>
 
             <a href= #>Find Mint Talk Account or Password</a>
         </form>
@@ -60,6 +59,6 @@
 
     <!--javascript file for font awesome-->
     <script src="https://kit.fontawesome.com/9f5be7e712.js" crossorigin="anonymous"></script>
-
+    <script src="javascript/clock.js"></script>
 </body>
 </html>

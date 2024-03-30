@@ -1,0 +1,46 @@
+.function-icons__mypage{
+    display:flex;
+    justify-content:space-between;
+
+    margin-top:50px;
+
+}
+
+.function-icons__mypage:nth-child(2){
+    display:flex;
+    justify-content:flex-start;
+
+    padding-bottom:45px;
+    border-bottom:var(--border-line);
+}
+
+.function-icons__mypage:nth-child(2) div{
+    margin-right:40px;
+}
+
+
+.service-suggestions__content{
+
+    display:flex;
+
+}
+
+.service-suggestions__icon{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    margin-right:30px;
+
+}
+
+.service-suggestions__icon img{
+
+    height:55px;
+    width:55px;
+
+    border-radius:10px;
+
+}
+

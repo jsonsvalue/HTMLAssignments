@@ -1,0 +1,46 @@
+.navigation{
+
+    background-color:#FAFAFA;
+    border-top: 1px solid rgba(0,0,0,0.2);
+
+    position: fixed;
+    bottom:0px;
+    width:100%;
+
+    box-sizing:border-box;
+
+}
+
+.navigation__list{
+
+    list-style-type:none;
+
+    display:flex;
+    justify-content:space-between;
+
+    padding:10px 40px;
+
+}
+
+.navigation__link{
+    color:#2F363E;
+    position:relative;
+
+}
+
+.navigation__msg__notification{
+
+    position:absolute;
+    left:15px;
+    bottom:7.5px;
+
+}
+
+.navigation__func__notification{
+    
+    position:absolute;
+    left:10px;
+    bottom:20px;
+
+}
+
